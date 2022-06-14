@@ -1,0 +1,4 @@
+Alamat : null
+Panjang tanah : 0
+Luas tanah : 0
+
