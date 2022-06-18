@@ -16,11 +16,9 @@ public class Main {
         switch (pilih){
             case 1:
                 try {
-                    System.out.println("Jumlah data yang ingin ditulis : ");
-                    jmlhdata=userInp.nextInt();
-                    DinasPertanahan[] dinasPertanahan = new DinasPertanahan[jmlhdata];
+                    DinasPertanahan[] dinasPertanahan = new DinasPertanahan[5];
                     dinasPertanahan[index]=new DinasPertanahan();
-                    for (index = 0;index <jmlhdata; index++) {
+                    for (index = 0;index <dinasPertanahan.length; index++) {
                         dinasPertanahan[index]=new DinasPertanahan();
                         System.out.printf("\n\nDATA KE-%d\n",index+1);
 //                        System.out.print("Masukkan Alamat : ");
