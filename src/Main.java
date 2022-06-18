@@ -3,7 +3,7 @@ import java.util.Scanner;
 
 public class Main {
 
-    public static <dinasPertanahan> void main(String[] args) {
+    public static void main(String[] args) {
         int index=0,pilih = 0,jmlhdata = 0;
 
         ReadWrite readWrite = new ReadWrite();
