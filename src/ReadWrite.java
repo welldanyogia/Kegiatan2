@@ -1,11 +1,16 @@
 import java.io.File;
 import java.io.FileNotFoundException;
+import java.io.FileWriter;
 import java.io.IOException;
 import java.util.Scanner;
-import java.io.FileWriter;
 
 public class ReadWrite{
-    DinasPertanahan dp = new DinasPertanahan();
+    private DinasPertanahan dp ;
+
+    public DinasPertanahan getDp() {
+        return dp;
+    }
+
     public void read(){
         try {
             File obj = new File("wkwk.txt");
@@ -21,11 +26,11 @@ public class ReadWrite{
             System.out.println("-------");
         }
     }
-    public void write(String alamat,int panjangTanah,int luasTanah) throws NullPointerException{
+    public void write() throws NullPointerException{
         try {
             FileWriter writer = new FileWriter("wkwk.txt");
-            writer.write("======================");
-            writer.write("Alamat : "+ dp.getAlamat() +"\n");
+            writer.write("======================\n");
+            writer.write("Alamat : "+ getDp().getAlamat() +"\n");
             writer.write("Panjang tanah : "+dp.getPanjangTanah()+"\n");
             writer.write("Luas tanah : "+dp.getLuasTanah()+"\n");
             writer.write("\n");

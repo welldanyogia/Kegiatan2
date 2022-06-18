@@ -1,4 +1,5 @@
-Alamat : null
-Panjang tanah : 0
-Luas tanah : 0
+======================
+Alamat : 
+Panjang tanah : 12
+Luas tanah : 12
 
